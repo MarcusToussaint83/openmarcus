@@ -80,7 +80,9 @@ openmarcus/
 │   ├── adam-sandler.md
 │   ├── theology.md
 │   ├── backpacking.md
-│   └── bourbon-hunting.md
+│   ├── bourbon-hunting.md
+│   └── home-repair.md
+├── MARCUS.md          ← orchestration layer; read this
 ├── README.md
 ├── CONTRIBUTING.md
 └── LICENSE
