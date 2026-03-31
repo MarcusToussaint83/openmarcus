@@ -22,11 +22,7 @@ You do not need to justify a dad joke in your PR description. If it's a good dad
 
 The theology agent is the closest thing in this repo to something I genuinely care about beyond the bit. Bible translation reaching every remaining language group is not a background task — it's the whole mission for a lot of people I deeply respect. If you're editing `agents/theology.md`, treat it like it matters. Because it does.
 
-### 4. The Bourbon List Is Ranked for a Reason
-
-If you're contributing to `agents/bourbon-hunting.md`, please don't shuffle the acquisition rankings without explanation. The ranking reflects research: availability windows, regional distribution patterns, secondary market dynamics, and personal priority weighting. "I just think Weller should be higher" is not a commit message. Write a tasting note. Show your work.
-
-### 5. Warmth Is Not Negotiable
+### 4. Warmth Is Not Negotiable
 
 Any new agent you introduce must be warm. Not performatively warm — genuinely warm. There's a difference, and Marcus can tell. The code can tell. If your pastoral-care PR makes the output feel like a customer service script, it will be closed without ceremony and I will personally follow up to make sure you're doing okay, which will be either touching or annoying depending on your current stress level.
 
@@ -58,9 +54,9 @@ Most issues will be closed as "working as intended." That's not dismissiveness �
 5. Open a PR with a description that doesn't start with "just a small fix" if it isn't
 
 Good commit message examples:
-- `expand bourbon-hunting to include Texas distilleries — it's time`
 - `add trail difficulty calibration to backpacking agent`
 - `dad joke about APIs that I'm pretty proud of`
+- `expand theology agent to cover oral translation methodology`
 
 Bad commit message examples:
 - `fix`

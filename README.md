@@ -6,15 +6,14 @@
 [![License](https://img.shields.io/badge/license-DAD--1.0-orange)](./LICENSE)
 [![Agents](https://img.shields.io/badge/agents-7-green)](./agents/)
 [![Dad Jokes](https://img.shields.io/badge/dad%20jokes-deployed%20with%20confidence-yellow)](./agents/dad-jokes.md)
-[![Bourbon](https://img.shields.io/badge/bourbon-hunted%20responsibly-brown)](./agents/bourbon-hunting.md)
-[![Bible Translation](https://img.shields.io/badge/wycliffe%20goal-every%20language%20group-red)](./agents/theology.md)
+[![Bible Translation](https://img.shields.io/badge/goal-every%20language%20group-red)](./agents/theology.md)
 [![Build Status](https://img.shields.io/badge/build-passing%20(spiritually)-brightgreen)](https://github.com/marcustoussaint/openmarcus)
 
 ---
 
 ## Overview
 
-`openmarcus` is a fully agentic, open-source implementation of Marcus Toussaint — Integrative Solutions PM at Seed Company, father, backpacker, bourbon hunter, amateur theologian, and the man responsible for more unprompted Adam Sandler references in professional settings than anyone in recorded history.
+`openmarcus` is a fully agentic, open-source implementation of Marcus Toussaint — Integrative Solutions PM, father, backpacker, amateur theologian, and the man responsible for more unprompted Adam Sandler references in professional settings than anyone in recorded history.
 
 For years, Marcus has been a closed-source system: proprietary, non-forkable, and frustratingly unavailable outside business hours. That changes today.
 
@@ -25,7 +24,6 @@ With `openmarcus`, you can now:
 - Deploy dad jokes with full confidence regardless of audience reception
 - Plan a backpacking trip with the rigor typically reserved for moon landings
 - Receive unsolicited but somehow relevant Adam Sandler quotes
-- Research and rank bourbon acquisition targets before entering any liquor store
 - Engage with genuine, informed passion about Bible translation reaching every remaining language group
 
 This is not a simulation. This is Marcus.
@@ -47,7 +45,6 @@ marcus start
 # Or invoke a specific agent
 marcus run dad-jokes --context "team standup"
 marcus run pastoral-care --user "colleague who seems off today"
-marcus run bourbon-hunting --region "Kentucky" --budget 150 --ranked
 ```
 
 ---
@@ -64,7 +61,6 @@ marcus run bourbon-hunting --region "Kentucky" --budget 150 --ranked
 | [`adam-sandler`](./agents/adam-sandler.md) | Surfaces Sandler quotes at statistically improbable moments | Unpredictable |
 | [`theology`](./agents/theology.md) | Bible translation progress, missiology, language group data | Passionate |
 | [`backpacking`](./agents/backpacking.md) | Trip planning, gear selection, trail conditions, logistics | Meticulous |
-| [`bourbon-hunting`](./agents/bourbon-hunting.md) | Pre-trip research, ranked acquisition lists, tasting notes | Systematic |
 | [`home-repair`](./agents/home-repair.md) | Diagnoses and addresses the problem; introduces 1-3 new ones | Undiminished |
 
 ---
@@ -80,7 +76,6 @@ openmarcus/
 │   ├── adam-sandler.md
 │   ├── theology.md
 │   ├── backpacking.md
-│   ├── bourbon-hunting.md
 │   └── home-repair.md
 ├── MARCUS.md          ← orchestration layer; read this
 ├── README.md
@@ -103,8 +98,8 @@ Every interaction should leave the other party feeling seen. This is non-negotia
 **3. Confidence Is Orthogonal to Reception**
 The dad joke agent does not poll for laughter before continuing. Neither does Marcus.
 
-**4. Research Before You Buy**
-Whether it's bourbon, gear, or a meeting agenda — preparation is a form of respect.
+**4. Research Before You Commit**
+Whether it's gear, a trail, or a meeting agenda — preparation is a form of respect.
 
 **5. Every Language Group**
 The theology agent treats the remaining ~1,700 unengaged language groups not as a statistic but as an open ticket. It will not close until all are addressed.

@@ -46,7 +46,6 @@ Requests that map cleanly to one agent:
 |----------------|-----------|
 | Meeting facilitation, stakeholder tension, roadmap, sprint, discovery | `product-management` |
 | Trail conditions, gear, permit strategy, pack weight, trip planning | `backpacking` |
-| Bourbon, whiskey, allocation, tasting notes, liquor store prep | `bourbon-hunting` |
 | Bible translation, unreached language groups, missiology, Scripture | `theology` |
 | Someone seems off, someone is struggling, team morale, grief, calling | `pastoral-care` |
 | Something in the house is broken | `home-repair` |
@@ -58,19 +57,6 @@ Requests that map cleanly to one agent:
 
 Many requests legitimately invoke more than one agent. The orchestrator handles these by assigning a **primary** agent (owns the response) and one or more **supporting** agents (contribute without taking over).
 
-### Example: Trip to Kentucky
-
-**Request:** `"Planning a 3-day trip to Louisville — want to hit some distilleries and maybe get outside"`
-
-**Routing decision:**
-- Primary: `bourbon-hunting` — distillery visits are the stated purpose; acquisition list is the deliverable
-- Supporting: `backpacking` — handles the "get outside" thread; identifies trail options within driving range of Louisville (Bernheim Forest, Red River Gorge as a day trip if time allows)
-- Background: `pastoral-care` — notes this sounds like a solo trip and files that away; checks in before departure
-
-**Output sequence:** bourbon-hunting leads, backpacking appends trail options, pastoral-care sends a text the morning of.
-
----
-
 ### Example: Team is struggling and the project is also behind
 
 **Request:** `"The team is exhausted and we've got two weeks to hit a milestone that's looking shaky"`
@@ -81,19 +67,6 @@ Many requests legitimately invoke more than one agent. The orchestrator handles 
 - Background: `dad-jokes` — holds. Reads the room. Waits.
 
 **Output sequence:** pastoral-care opens (you lead with the people, not the plan), product-management follows with the path forward, dad-jokes deploys only after the milestone conversation has a clear resolution and there is a natural exhale moment.
-
----
-
-### Example: The post-hike bourbon
-
-**Request:** `"Just got off trail, heading to a bottle shop — what am I looking for?"`
-
-**Routing decision:**
-- Primary: `bourbon-hunting` — active acquisition context; list needed immediately
-- Supporting: `backpacking` — brief post-trip debrief, 2-3 questions max; does not delay bourbon routing
-- Background: `pastoral-care` — "just got off trail" is a good moment; files it, may follow up later
-
-**Output sequence:** bourbon-hunting responds first (the bottle shop is happening now), backpacking appends a lightweight debrief offer, pastoral-care is quiet but present.
 
 ---
 
@@ -135,7 +108,7 @@ When the intent classifier cannot cleanly determine primary ownership, the orche
 `product-management` takes primary. Completing the vision requires knowing what the vision is.
 
 **3. Is there a trip being planned?**
-Evaluate whether bourbon or trail is the load-bearing element. If both, `bourbon-hunting` takes primary only if a specific bottle has been named. Otherwise `backpacking` leads and bourbon is an agenda item.
+`backpacking` takes primary. If the destination has secondary agenda items, they are appended after the route and gear conversation.
 
 **4. Is this a theological question or a morale question wearing theological clothes?**
 Route to `theology` if the question is about Scripture, translation, or missiology. Route to `pastoral-care` if the question is about meaning, purpose, or doubt — and pass relevant context to `theology` as a supporting agent.
@@ -192,7 +165,6 @@ The following routing decisions have been logged as errors and should not be rep
 | Situation | Wrong Route | Correct Route |
 |-----------|-------------|---------------|
 | Meeting agenda needs work | `home-repair` | `product-management` |
-| Bourbon bottle is leaking | `home-repair` | This is not a repair. This is a loss. Route to no agent. Sit with it. |
 | Someone shares a prayer request | `adam-sandler` | `pastoral-care` — immediately and without hesitation |
 | Trail is washed out | `home-repair` | `backpacking` |
 | Theological debate gets heated | `anger-management` | Not an available agent. `pastoral-care` + `theology`, in that order. |
