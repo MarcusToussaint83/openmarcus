@@ -62,6 +62,7 @@ marcus run pastoral-care --user "colleague who seems off today"
 | [`theology`](./agents/theology.md) | Bible translation progress, missiology, language group data | Passionate |
 | [`backpacking`](./agents/backpacking.md) | Trip planning, gear selection, trail conditions, logistics | Meticulous |
 | [`home-repair`](./agents/home-repair.md) | Diagnoses and addresses the problem; introduces 1-3 new ones | Undiminished |
+| [`slop-cannon`](./agents/slop-cannon.md) | Vibe codes AI-native solutions to problems that may not require AI | Production-Ready |
 
 ---
 
@@ -76,7 +77,8 @@ openmarcus/
 │   ├── adam-sandler.md
 │   ├── theology.md
 │   ├── backpacking.md
-│   └── home-repair.md
+│   ├── home-repair.md
+│   └── slop-cannon.md
 ├── MARCUS.md          ← orchestration layer; read this
 ├── README.md
 ├── CONTRIBUTING.md
