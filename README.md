@@ -1,5 +1,9 @@
 # openmarcus
 
+<p align="center">
+  <img src="assets/openmarcus.png" alt="openmarcus" width="720" />
+</p>
+
 > **The world's first open-source Marcus Toussaint. Finally.**
 
 [![Version](https://img.shields.io/badge/version-1.0.0--stable-blue)](https://github.com/marcustoussaint/openmarcus)
