@@ -65,6 +65,7 @@ marcus run bourbon-hunting --region "Kentucky" --budget 150 --ranked
 | [`theology`](./agents/theology.md) | Bible translation progress, missiology, language group data | Passionate |
 | [`backpacking`](./agents/backpacking.md) | Trip planning, gear selection, trail conditions, logistics | Meticulous |
 | [`bourbon-hunting`](./agents/bourbon-hunting.md) | Pre-trip research, ranked acquisition lists, tasting notes | Systematic |
+| [`home-repair`](./agents/home-repair.md) | Diagnoses and addresses the problem; introduces 1-3 new ones | Undiminished |
 
 ---
 
