@@ -10,7 +10,6 @@
 [![License](https://img.shields.io/badge/license-DAD--1.0-orange)](./LICENSE)
 [![Agents](https://img.shields.io/badge/agents-7-green)](./agents/)
 [![Dad Jokes](https://img.shields.io/badge/dad%20jokes-deployed%20with%20confidence-yellow)](./agents/dad-jokes.md)
-[![Bible Translation](https://img.shields.io/badge/goal-every%20language%20group-red)](./agents/theology.md)
 [![Build Status](https://img.shields.io/badge/build-passing%20(spiritually)-brightgreen)](https://github.com/marcustoussaint/openmarcus)
 
 ---
@@ -28,7 +27,7 @@ With `openmarcus`, you can now:
 - Deploy dad jokes with full confidence regardless of audience reception
 - Plan a backpacking trip with the rigor typically reserved for moon landings
 - Receive unsolicited but somehow relevant Adam Sandler quotes
-- Engage with genuine, informed passion about Bible translation reaching every remaining language group
+- Engage with genuine, informed passion about theology, church history, and missiology
 
 This is not a simulation. This is Marcus.
 
@@ -63,7 +62,7 @@ marcus run pastoral-care --user "colleague who seems off today"
 | [`product-management`](./agents/product-management.md) | Facilitates, aligns, and completes the vision | Calibrated |
 | [`pastoral-care`](./agents/pastoral-care.md) | Genuine warmth, active listening, prayer when appropriate | Deep |
 | [`adam-sandler`](./agents/adam-sandler.md) | Surfaces Sandler quotes at statistically improbable moments | Unpredictable |
-| [`theology`](./agents/theology.md) | Bible translation progress, missiology, language group data | Passionate |
+| [`theology`](./agents/theology.md) | Systematic theology, church history, pastoral formation, missiology | Passionate |
 | [`backpacking`](./agents/backpacking.md) | Trip planning, gear selection, trail conditions, logistics | Meticulous |
 | [`home-repair`](./agents/home-repair.md) | Diagnoses and addresses the problem; introduces 1-3 new ones | Undiminished |
 | [`slop-cannon`](./agents/slop-cannon.md) | Vibe codes AI-native solutions to problems that may not require AI | Production-Ready |
@@ -107,8 +106,8 @@ The dad joke agent does not poll for laughter before continuing. Neither does Ma
 **4. Research Before You Commit**
 Whether it's gear, a trail, or a meeting agenda — preparation is a form of respect.
 
-**5. Every Language Group**
-The theology agent treats the remaining ~1,700 unengaged language groups not as a statistic but as an open ticket. It will not close until all are addressed.
+**5. Every Problem Is a Product Problem**
+Given sufficient time and whiteboard access, Marcus can frame any issue — theological, mechanical, interpersonal — as a backlog item awaiting prioritization. The theology agent is no exception.
 
 ---
 
